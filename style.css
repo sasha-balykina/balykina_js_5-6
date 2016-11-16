@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.timerBox {
+    align-items: center;
+    background: #e1e3ff;
+    border: 10px solid #000;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#timer {
+    font-size: 80px;
+}
+
+#timerMsecond {
+    font-size: 24px;
+    margin-left: 240px;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 400px;
+}
+
+button {
+    background: linear-gradient(to right, #14a714, #118f11);
+    border: 5px solid #000;
+    border-radius: 30px;
+    font-size: 24px;
+    height: 60px;
+    text-align: center;
+    width: 150px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#start:hover {
+    background: linear-gradient(to right, #1bd51a, #1eb71e);
+}
+
+#reset {
+    background: linear-gradient(to right, #a41717, #810d0d);
+}
+
+#pause {
+    background: linear-gradient(to right, #116daa, #179fca);
+    display: none;
+}
+
+#pause:hover {
+    background: linear-gradient(to right, #2f9fea, #2f8fce);
+}
+
+#reset:hover {
+    background: linear-gradient(to right, #d81f1f, #bf1616);
+}
+
